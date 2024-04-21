@@ -38,7 +38,7 @@ return <div>
    cart.map(function (ele) {
         return <div key={ele.id} className="item">
 
-            <img src={ele.image}></img>
+            
             <h1 >{ele.name}</h1>
             <button onClick={() => changequanity(ele.id, 'Minus')}>-</button>
             <p>{ele.quantity}</p>
